@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   giftBtn.style.cursor = "not-allowed";
 
   /* ================= COUNTDOWN ================= */
-  const targetDate = new Date("February 8, 2025 12:00:00").getTime();
+  const targetDate = new Date("February 8, 2026 12:00:00").getTime();
 
   function updateCountdown() {
     const diff = targetDate - Date.now();
@@ -296,3 +296,4 @@ document.querySelectorAll(".gift-box").forEach(box => {
 });
 
 });
+
